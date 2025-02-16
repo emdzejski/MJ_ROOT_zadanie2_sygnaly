@@ -9,7 +9,7 @@ Program przetwarza sygnały zapisane w pliku binarnym, wyznacza ich kluczowe par
 2. Wyznaczenie najważniejszych parametrów sygnału:
    - **Amplituda** – największa wartość bezwzględna sygnału w danym oknie czasowym.
    - **Czas rozpoczęcia sygnału (T0)** – moment, w którym sygnał przekracza określony próg `Athr`.
-   - **Ładunek** – całka z wartości sygnału od `T0` do `Tstop`.
+   - **Ładunek** – całka z wartości sygnału od `T0` do `Tmax`.
    - **Czas nad progiem (TOT, Time Over Threshold)** – czas od `T0` do ponownego przecięcia progu `Athr`.
 3. Przechowywanie tych parametrów w obiektach klasy **MySignal** i zapisanie ich do **drzewa ROOT**.
 4. Odczytanie drzewa i **wizualizacja danych** w postaci histogramów.
