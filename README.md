@@ -5,7 +5,7 @@ Program przetwarza sygnały zapisane w pliku binarnym, wyznacza ich kluczowe par
 
 
 ## **Działanie programu**
-1. Odczytanie danych z pliku binarnego `wave_0.dat`.
+1. Odczytanie danych z pliku binarnego.
 2. Wyznaczenie najważniejszych parametrów sygnału:
    - **Amplituda** – największa wartość bezwzględna sygnału w danym oknie czasowym.
    - **Czas rozpoczęcia sygnału (T0)** – moment, w którym sygnał przekracza określony próg `Athr`.
