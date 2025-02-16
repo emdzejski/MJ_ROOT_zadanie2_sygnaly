@@ -1,0 +1,1 @@
+# MJ_ROOT_zadanie2_sygnaly
